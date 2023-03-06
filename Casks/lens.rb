@@ -1,9 +1,9 @@
 cask "lens" do
   arch arm: "-arm64"
 
-  version "6.4.0"
-  sha256 arm:   "9d0a53d3e29ec7a6252b5cea7185dcf62b5c1718ada495e4f7ffb8993dfce90e",
-         intel: "aeb6d79d96d626d13d55d9fae5ac8a65050c2d0a87247976c89600943b334c51"
+  version "6.4.1"
+  sha256 arm:   "83d41d651f694738b64688844042ddbcdaebbded1a759842ab2addbaec4289b5",
+         intel: "a92a5db903f26624987dea5a861f3d42460d3bbffc867b1c8e889f9bbbb90469"
 
   url "https://github.com/agologan/lens/releases/download/v#{version}/OpenLens-#{version}#{arch}.dmg"
   name "Lens"
