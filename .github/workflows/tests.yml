@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'Casks/*.rb'
   pull_request:
 jobs:
   test-bot:
