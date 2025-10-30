@@ -10,6 +10,8 @@ cask "freelens" do
   desc "Kubernetes IDE"
   homepage "https://github.com/agologan/freelens/"
 
+  depends_on macos: ">= :big_sur"
+
   app "Freelens.app"
 
   zap trash: [
