@@ -1,9 +1,9 @@
 cask "freelens" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.6.2-blue"
-  sha256 arm:   "389e68dbd58c00cabb07422afc9f85143f4d4dfae188a71532348f92f6400c7e",
-         intel: "8b9dc6d6c18c93e06a54bdbf514c6d7cb8b417ea1554a09301ca8143529a8af4"
+  version "1.8.0-blue"
+  sha256 arm:   "a9932a52e22d4621b2366fa6272ee0cf0c36618721fd5e63d923994ed13a3685",
+         intel: "37119fc84b62380c8071fbee4c866b0f3a9e9c3f897ef3730b5e45a00956c327"
 
   url "https://github.com/agologan/freelens/releases/download/v#{version}/Freelens-#{version}-macos-#{arch}.dmg"
   name "Freelens"
