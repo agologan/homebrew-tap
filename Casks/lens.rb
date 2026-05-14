@@ -10,7 +10,7 @@ cask "lens" do
   desc "Kubernetes IDE"
   homepage "https://github.com/agologan/lens/"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "OpenLens.app"
 
