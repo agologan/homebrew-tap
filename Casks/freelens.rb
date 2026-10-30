@@ -10,12 +10,14 @@ cask "freelens" do
   desc "Kubernetes IDE"
   homepage "https://github.com/agologan/freelens/"
 
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "Freelens.app"
 
   zap trash: [
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/app.freelens.freelens.sfl*",
     "~/Library/Application Support/Freelens",
     "~/Library/Logs/Freelens",
+    "~/Library/Preferences/app.freelens.Freelens.plist",
   ]
 end
